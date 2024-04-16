@@ -1,0 +1,289 @@
+
+
+.list a{
+    margin-right: 15px;
+    color: black;
+    font-weight: 400;
+    transition: .3s;
+}
+.list a:last-child{
+    padding-right: 20px;
+}
+nav{
+    border-bottom:1px solid rgb(158, 157, 157) ;
+    box-shadow: 0px 0px 5px rgb(146, 145, 145);
+}
+
+.navbar-brand{
+    padding-right: 350px;
+}
+nav h1{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.main{
+    padding: 0 0;
+}
+.list a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 70, 160);
+    transition: .3s;
+    border-radius: 5px;
+ }
+
+.list a.activ{
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 70, 160);
+    border-radius: 5px;
+}
+
+.main .container{
+    display: flex;
+}
+.container img{
+    width: 120%;
+    height: 80vh;
+}
+
+.container .text{
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.text .title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: .9rem;
+}
+
+.text .btn{
+    background-color: rgb(43, 70, 160);
+    color: azure;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.text .btn:hover{
+    transition: .3s;
+    background: none;
+    color: rgb(43, 70, 160);
+    outline: none;
+    border: 1px solid rgb(43, 70, 160);
+}
+
+.services .title{
+    padding-top: 30px;
+    display: block;
+text-align: center;
+/* margin-left: 300px; */
+text-align: center;
+width: 100%;
+}
+
+.services .title h1{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.services {
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+.services .title p{
+    font-size: .9rem;
+    padding-bottom: 30px;
+}
+
+.card{
+    box-shadow: 1px 1px 3px 3px rgba(202, 199, 199, 0.712);
+}
+
+.card img{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.card .card-body{
+    text-align: center;
+}
+
+.card-body h5{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card-body p{
+    color: rgb(119, 119, 119);
+    font-size: .9rem;
+}
+
+.card .btn{
+    background:white;
+    color:  rgb(43, 70, 160);
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: .3s;
+    text-transform: capitalize;
+    border: 1px solid  rgb(43, 70, 160);
+}
+
+.card .btn:hover{
+    transition: .3s;
+    background:  rgb(0, 42, 180);
+    color: rgb(255, 255, 255);
+}
+.contact .banner{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact img{
+    width: 40%;
+    height: 40%;
+}
+
+.contact .button{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.contact .btn{
+    background-color: rgb(43, 70, 160);
+    color: azure;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: .3s;
+    text-transform: capitalize;
+}
+
+.contact .btn:hover{
+    transition: .3s;
+    background:  none;
+    color: rgb(43, 70, 160);
+    border: 1px solid rgb(43, 70, 160);
+
+}
+
+.footer{
+    
+    background: rgb(43, 70, 160);
+height: 90px;
+}
+
+.footer .text{
+    text-align: center;
+    width: 100%;
+    margin-right: 20px;
+    padding-top: 10px;
+    color: rgb(245, 245, 245);
+}
+
+.text .copy{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.text .creat span{
+    color: rgb(12, 12, 12);
+    font-weight: 800;
+}
+
+
+@media(max-width: 1000px){
+    .list{
+        margin-left: 0px;
+    }
+    .list a{
+        text-align: center;
+        margin-top: 10px;
+     }
+
+     .list a:not(:last-child){
+border-bottom: 1px solid rgb(187, 187, 187);
+border-radius: 3px;
+     }
+
+.list a:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(93, 116, 192);
+        border-radius: 5px;
+     }
+     .list a.activ{
+        color: rgb(255, 255, 255);
+        background-color: rgb(93, 116, 192);
+        border-radius: 5px;
+     }
+}
+
+@media(max-width: 748px){
+    .container .text h2{
+        font-size: 1.7rem;
+    }
+    .container .text p{
+    font-size: .9rem;
+    }
+}
+
+@media(max-width: 548px){
+    .navbar-brand{
+        padding-right: 0px;
+    }
+    .container .text{
+        width: 70%;
+        margin-top: 0px;
+    }
+    .main .container{
+        display: block;
+    }
+    .blog .col img{
+        text-align: center;
+        width: 100%;
+        padding: 0 0;
+        height: 300px;
+    }
+    .main .text{
+        text-align: center;
+    }
+    
+    .main .text h2{
+        font-size: 1.6rem;
+    }
+
+    .main .text p{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 400px){
+.container .text{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.container .text h2{
+    font-size: 1.4rem;
+}
+
+.container .text p{
+    font-size: .9rem;
+}
+}
